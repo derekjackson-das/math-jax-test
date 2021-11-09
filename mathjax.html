@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathJax Test</title>
+</head>
+
+<body>
+    <h1>MathML Equation with MathJax</h1>
+<a href="index.html">Equations without MathJax</a>
+
+    <div style="width:50%">
+    <?xml version="1.0" encoding="utf-8" standalone="no"?>
+    <math xmlns="http://www.w3.org/1998/Math/MathML" display="block" title="\ x^n + y^n = z^n \ ">
+        <mrow>
+
+            <msup>
+                <mrow>
+                    <mi>x</mi>
+                </mrow>
+                <mrow>
+                    <mi>n</mi>
+                </mrow>
+            </msup>
+            <mo>+</mo>
+            <msup>
+                <mrow>
+                    <mi>y</mi>
+                </mrow>
+                <mrow>
+                    <mi>n</mi>
+                </mrow>
+            </msup>
+            <mo>=</mo>
+            <msup>
+                <mrow>
+                    <mi>z</mi>
+                </mrow>
+                <mrow>
+                    <mi>n</mi>
+                </mrow>
+            </msup>
+
+        </mrow>
+    </math>
+    </xml>
+</div>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+
+
+</body>
+
+</html>
